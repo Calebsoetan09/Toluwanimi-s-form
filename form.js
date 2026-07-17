@@ -19,8 +19,8 @@ submitButton.addEventListener("click" , function(){
     const passwordInputValue = passwordInput.value;
 
     if(emailuserInputValue === ""){
-        console.error("read the instruction again , dumbass:)");
-        errorDisplay.textContent = "read the instruction again , dumbass:)";
+        console.error("read the instruction again;
+        errorDisplay.textContent = "read the instruction again";
         errorDisplay.style.display = "block";
 
         setTimeout(function(){
@@ -31,8 +31,8 @@ submitButton.addEventListener("click" , function(){
     }
 
     if(passwordInputValue === ""){
-        console.error("learn from the last mistake , dumbass:)");
-        errorDisplay.textContent = "learn from the last mistake , dumbass:)"
+        console.error("learn from the last mistake");
+        errorDisplay.textContent = "learn from the last mistake"
         errorDisplay.style.display = "block";
 
         setTimeout(function(){
@@ -43,8 +43,8 @@ submitButton.addEventListener("click" , function(){
     }
 
     if(passwordInputValue.length <8 ){
-        console.error("come on , you were taught about this in school , fool");
-        errorDisplay.textContent = "come on , you were taught about this in school , fool";
+        console.error("come on , you were taught about this in school , password is not strong");
+        errorDisplay.textContent = "come on , you were taught about this in school , password is not strong";
         errorDisplay.style.display = "block";
 
         setTimeout(function(){
@@ -56,7 +56,7 @@ submitButton.addEventListener("click" , function(){
 
 
     console.log("login sucessful");
-    successDisplay.textContent = "finally , please leave ";
+    successDisplay.textContent = "login successful";
     successDisplay.style.display = "block";
     
     setTimeout(function(){
