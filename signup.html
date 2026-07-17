@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="signup.css">
+        <script src="signup.js" defer></script>
+    </head>
+
+    <body>
+        <section class="form-section">
+            <header class="form-header">
+                <div class="logo">
+                    <div class="upper-text">T&J's</div> 
+                    <div class="lower-text">cafe</div>
+                </div>
+
+                <div class="title">Create a new account</div>
+            </header>
+
+            <div class="instruction">Fill in necessary details , some are optional , feel free to fill in :D </div>
+
+            <form class="form-section-container">
+                <div class="detail-one">
+                    <div class="first-name">
+                        <label class="label">First Name</label>
+                        <input type="text" id="first-name-input" placeholder="insert name in here">
+                    </div>
+
+                    <div class="last-name">
+                        <label class="label">Last Name</label>
+                        <input type="text" id="last-name-input" placeholder="insert last name in here">
+                    </div>
+
+                    <div class="dob">
+                        <label class="label">DOB <span class=asterik>*</span></label>
+                        <input type="number" id="dob-input" placeholder="insert dob here">
+                    </div>
+
+                    <div class="phone-number">
+                        <label class="label">Phone Number</label>
+                        <input type="text" id="number-input" placeholder="insert phone number in here">
+                    </div>
+                </div>
+
+                <div class="detail-two">
+                    <div class="email">
+                        <label class="label">Email <span class="asterik">*</span></label>
+                        <input type="email" id="email-input" placeholder="insert email in here">
+                    </div>
+
+                    <div class="password">
+                        <label class="label">password <span class="asterik">*</span> </label>
+                        <input type="password" id="password-input" placeholder="insert password in here">
+                    </div>
+
+                    <div class="confirm-password">
+                        <label class="label">Confirm Password <span class="asterik">*</span></label>
+                        <input type="password" id="confirm-input" placeholder="confirm your password">
+                    </div>
+
+                    <div class="button-link">
+                        <button type="button" id="submit-button">Submit</button>
+                        <a class="log-in" href="form.html">already have an account?</a>
+                    </div>
+                </div>      
+            </form>
+
+            <div class="messages">
+                <div class="error"></div>
+                <div class="success"></div>
+            </div>
+        </section>
+    </body>
+</html>
